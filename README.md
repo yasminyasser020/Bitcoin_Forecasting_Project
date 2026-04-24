@@ -15,6 +15,11 @@ Clone this repository or save the script, then install the dependencies from the
 
 pip install -r requirements.txt
 
+### 3. Running the App
+To handle large Kaggle datasets (which often exceed standard limits), launch the portal using the following command. Replace `[the size you want]` with your preferred limit in Megabytes (e.g., `1000` for 1GB):
+
+streamlit run your_filename.py --server.maxUploadSize [the size you want]
+
 
 ## 🚨 CRITICAL OPERATING NOTE
 
