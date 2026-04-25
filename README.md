@@ -2,6 +2,8 @@
 
 An interactive Streamlit web application designed to analyze historical Bitcoin price data and project future trends using advanced time-series modeling. This tool allows users to upload custom Kaggle datasets, configure model parameters, and visualize technical indicators alongside AI-driven forecasts.
 
+**🔗 [Live Demo: Access the Portal Here](https://bitcoinforecastingproject-gmzgx47bmjndgkzuqrfjwy.streamlit.app/)**
+
 ---
 
 ## 🚀 Setup Instructions
@@ -15,7 +17,7 @@ Clone this repository or save the script, then install the dependencies from the
 
 pip install -r requirements.txt
 
-### 3. Running the App
+### 3. Running the App Locally
 To handle large Kaggle datasets (which often exceed standard limits), launch the portal using the following command. Replace `[the size you want]` with your preferred limit in Megabytes (e.g., `1000` for 1GB):
 
 streamlit run your_filename.py --server.maxUploadSize [the size you want]
